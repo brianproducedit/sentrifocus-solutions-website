@@ -79,7 +79,7 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 w-full border-b border-primary/40 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-xl transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 w-full border-b border-primary/30 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-xl transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       } ${scrolled ? "shadow-lg shadow-black/10" : ""}`}
     >
