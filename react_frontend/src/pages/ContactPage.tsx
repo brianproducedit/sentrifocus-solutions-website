@@ -57,7 +57,7 @@ export function ContactPage() {
             
             <div className="relative w-full h-[400px] rounded-xl overflow-hidden border border-primary/10 shadow-lg">
               <iframe
-                title="Galaxy ICT Solutions - Harare, Zimbabwe"
+                title="SentriFocus Solutions - Harare, Zimbabwe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.799356644184!2d31.033753776514373!3d-17.82531948258506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a67c5d8e9b7d%3A0x1234567890abcdef!2sHarare%2C%20Zimbabwe!5e0!3m2!1sen!2zzw!4v1234567890"
                 width="100%"
                 height="100%"
@@ -72,7 +72,7 @@ export function ContactPage() {
           <div className="bg-white dark:bg-slate-900/50 p-8 rounded-xl border border-primary/10 shadow-sm">
             <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
             <form className="space-y-4" method="POST" action={contactFormAction}>
-              <input type="hidden" name="_subject" value="Galaxy ICT - Contact Form" />
+              <input type="hidden" name="_subject" value="SentriFocus - Contact Form" />
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <input className="w-full bg-slate-50 dark:bg-slate-800/50 border border-primary/10 rounded-lg p-3" placeholder="Your full name" name="name" required />
                 <input className="w-full bg-slate-50 dark:bg-slate-800/50 border border-primary/10 rounded-lg p-3" placeholder="you@example.com" type="email" name="email" required />
@@ -105,7 +105,7 @@ export function ContactPage() {
           </div>
           <div className="max-w-3xl mx-auto bg-primary/5 dark:bg-primary/10 p-8 md:p-12 rounded-2xl border border-primary/10">
             <form className="space-y-6" method="POST" action={feedbackFormAction}>
-              <input type="hidden" name="_subject" value="Galaxy ICT - Feedback Form" />
+              <input type="hidden" name="_subject" value="SentriFocus - Feedback Form" />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input className="w-full bg-white dark:bg-slate-900 border border-primary/10 rounded-lg p-3" placeholder="Your full name" name="name" required />
                 <input className="w-full bg-white dark:bg-slate-900 border border-primary/10 rounded-lg p-3" placeholder="Household, tuckshop, supermarket, or company name (optional)" name="company" />

@@ -91,7 +91,7 @@ export function PricingPage() {
             </p>
           ) : null}
           <form className="space-y-6" method="POST" action={contactFormAction}>
-            <input type="hidden" name="_subject" value="Galaxy ICT - New Quote Request" />
+            <input type="hidden" name="_subject" value="SentriFocus - New Quote Request" />
             <input type="hidden" name="selected_scope" value={selectedScope} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <input className="rounded-lg border p-3 bg-slate-50 dark:bg-slate-900/50" placeholder="Your full name" name="name" required />

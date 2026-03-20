@@ -86,7 +86,7 @@ export function Navbar() {
       <div className="hidden md:block border-b border-slate-200/10 bg-slate-900 text-slate-100 text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-9 flex items-center justify-between">
           <p className="tracking-wide">Zimbabwe-owned ICT startup • Harare HQ • Transparent delivery process</p>
-          <p className="text-slate-300">Support: support@galaxyict.co.zw</p>
+          <p className="text-slate-300">Support: support@sentrifocus.co.zw</p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,7 +97,7 @@ export function Navbar() {
               <Code size={24} />
             </div>
             <div>
-              <h2 className="text-slate-900 dark:text-white text-lg sm:text-xl font-bold tracking-tight">Galaxy ICT Solutions</h2>
+              <h2 className="text-slate-900 dark:text-white text-lg sm:text-xl font-bold tracking-tight">SentriFocus Solutions</h2>
               <p className="text-[10px] uppercase tracking-[0.2em] text-slate-500">Built in Zimbabwe</p>
             </div>
           </Link>

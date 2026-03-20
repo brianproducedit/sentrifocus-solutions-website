@@ -57,7 +57,7 @@ export const testimonials: Testimonial[] = [
     name: "Tatenda M.",
     role: "Operations Director, Financial Services",
     quote:
-      '"Galaxy ICT transformed our network without disrupting operations. Their reporting and handover process was clear and disciplined."',
+        '"SentriFocus transformed our network without disrupting operations. Their reporting and handover process was clear and disciplined."',
   },
   {
     initials: "RK",

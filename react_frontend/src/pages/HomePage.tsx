@@ -21,7 +21,7 @@ export function HomePage() {
             Trusted ICT Infrastructure for a <span className="text-primary">Faster, Safer Future</span>
           </h1>
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-            Galaxy ICT Solutions designs, deploys, and supports secure digital systems across Zimbabwe with transparent planning and measurable outcomes.
+            SentriFocus Solutions designs, deploys, and supports secure digital systems across Zimbabwe with transparent planning and measurable outcomes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/request-quote">

@@ -23,7 +23,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white">
                 <Code size={20} />
               </div>
-              <h2 className="text-white text-lg font-bold">Galaxy ICT Solutions</h2>
+              <h2 className="text-white text-lg font-bold">SentriFocus Solutions</h2>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
               Zimbabwe-owned ICT company focused on secure infrastructure, operational reliability, and measurable outcomes.
@@ -86,7 +86,7 @@ export function Footer() {
           </div>
         </div>
         <div className="pt-6 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-500 text-xs">© 2026 Galaxy ICT Solutions. All rights reserved.</p>
+          <p className="text-slate-500 text-xs">© 2026 SentriFocus Solutions. All rights reserved.</p>
           <div className="flex gap-5 text-slate-500">
             <Globe size={20} className="hover:text-primary transition-colors cursor-pointer" />
             <Mail size={20} className="hover:text-primary transition-colors cursor-pointer" />
